@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dce8df;
+}
+
+.form-group {
+  @apply flex flex-col gap-3;
+}
+
+/* input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+} */
