@@ -11,5 +11,10 @@ export default function DateAndTime() {
     return () => clearInterval(interval);
   }, []);
 
-  return <p>{time.toLocaleTimeString()}</p>;
+  return (
+    <div className="flex gap-10">
+      <p className="information-widgets">{time.toLocaleDateString()}</p>
+      <p className="information-widgets">{time.toLocaleTimeString()}</p>
+    </div>
+  );
 }

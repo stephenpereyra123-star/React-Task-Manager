@@ -16,3 +16,7 @@ body {
 input[type="time"]::-webkit-calendar-picker-indicator {
   filter: invert(1);
 } */
+
+.information-widgets {
+  @apply rounded-2xl bg-[#407B65] text-white p-2 text-xs;
+}
